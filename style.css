@@ -6,9 +6,76 @@
 }
 
 body{
-    background-color: black;
-    color: white;
-    background-image: url('dog.jpg');
+    background: linear-gradient(to bottom, rgb(255, 89, 117), rgb(0, 0, 0));
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+}
+
+
+
+h1{
+    background-color: rgba(0, 0, 0, 0.509);
+    height: 50px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px 10px 0px 0px;
+    text-shadow: 3px 3px 3px black;
+    
+}
+
+.fora{
+    position: relative;
+    background-color: white;
+    background-image: url('tom.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
-    background-image: 100vw;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    box-shadow: inset 0px 0px 10px 10px  rgba(0, 0, 0, 0.564);
+}
+
+section > a {
+    transition: 0.5s;
+    color: rgb(0, 0, 0);
+    background-color: rgba(250, 54, 96, 0.769);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.253);
+    text-decoration: none;
+    
+}
+
+#s{
+    position: absolute;
+    left: 100px;
+    top: 520px;
+}
+#n{
+    position: absolute;
+    right: 100px;
+    top: 520px;
+}
+
+a:hover{
+    background-color: rgba(234, 13, 61, 0.769);
+    border-radius: 20px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+.baixo{
+    margin-bottom: 50px ;
+    background-color: rgba(250, 32, 83, 0.295);
+    padding: 40px;
+    height: -10px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0px 0px 10px 10px;
+    
 }
