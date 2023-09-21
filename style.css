@@ -18,7 +18,7 @@ body{
 h1{
     background-color: rgba(0, 0, 0, 0.509);
     height: 50px;
-    width: 500px;
+    width: 400px;
     margin: auto;
     border-radius: 10px 10px 0px 0px;
     text-shadow: 3px 3px 3px black;
@@ -32,8 +32,8 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 500px;
-    width: 500px;
+    height: 600px;
+    width: 400px;
     margin: auto;
     box-shadow: inset 0px 0px 10px 10px  rgba(0, 0, 0, 0.564);
 }
@@ -52,12 +52,12 @@ section > a {
 #s{
     position: absolute;
     left: 100px;
-    top: 520px;
+    top: 620px;
 }
 #n{
     position: absolute;
     right: 100px;
-    top: 520px;
+    top: 620px;
 }
 
 a:hover{
@@ -73,7 +73,7 @@ a:hover{
     background-color: rgba(250, 32, 83, 0.295);
     padding: 40px;
     height: -10px;
-    width: 420px;
+    width: 320px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 0px 0px 10px 10px;
